@@ -19,4 +19,9 @@ public class NormalTestEndpoint {
         return "REPONSE FROM A NORMAL REST ENDPOINT (ADMIN)";
     }
 
+    @ReadOperation
+    public String test2() {
+        return "ADDED THIS RESPONSE";
+    }
+
 }

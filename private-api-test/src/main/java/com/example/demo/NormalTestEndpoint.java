@@ -20,8 +20,8 @@ public class NormalTestEndpoint {
     }
 
     @ReadOperation
-    public String test2() {
-        return "ADDED THIS RESPONSE";
+    public String added() {
+        return "ADDED NEW ACTUATOR ENDPOINT";
     }
 
 }

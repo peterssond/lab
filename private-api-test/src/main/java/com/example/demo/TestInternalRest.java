@@ -17,4 +17,9 @@ public class TestInternalRest {
     public String test() {
         return "PROTECTED TEST OK (STANDARD)";
     }
+
+    @GetMapping(path = "/test2")
+    public String test2() {
+        return "WE NEED THIS ENDPOINT ASWELL";
+    }
 }

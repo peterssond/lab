@@ -24,13 +24,4 @@ public class RestTestEndpoint {
         return "REPONSE FROM TEST2 REST ENDPOINT (ADMIN)";
     }
 
-    @GetMapping(path = "/test3")
-    public String test3() {
-        return "REPONSE FROM TEST2 REST ENDPOINT (ADMIN), MOOOORE";
-    }
-
-    @GetMapping(path = "/test4")
-    public String test4() {
-        return "BULLE";
-    }
 }

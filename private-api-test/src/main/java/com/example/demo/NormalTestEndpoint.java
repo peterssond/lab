@@ -18,10 +18,4 @@ public class NormalTestEndpoint {
     public String test() {
         return "REPONSE FROM A NORMAL REST ENDPOINT (ADMIN)";
     }
-
-    @ReadOperation
-    public String added() {
-        return "ADDED NEW ACTUATOR ENDPOINT";
-    }
-
 }
